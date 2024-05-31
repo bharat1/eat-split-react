@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  display: flex;
 }
 
 .App-logo {
@@ -35,4 +36,32 @@
   to {
     transform: rotate(360deg);
   }
+}
+li{
+   
+  
+   list-style-type: none;
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+   /* display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   padding: 0;
+    width: 30%; 
+    max-width: 100%; 
+    gap: 54px; */
+}
+
+.red{
+  color:red;
+}
+
+.blue{
+  color:blue;
+}
+
+button{
+  height: 50px;
+    width: 50px;
 }
